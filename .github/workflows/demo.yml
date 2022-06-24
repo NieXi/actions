@@ -3,6 +3,7 @@ name: Test Schedule
 on:
   schedule: 
     - cron: '*/20 * * * *'
+  workflow_dispatch:
 
 jobs:
   my_echo_job:
